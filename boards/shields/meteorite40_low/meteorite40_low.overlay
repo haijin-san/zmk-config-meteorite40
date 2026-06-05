@@ -29,3 +29,14 @@
         >;
     };
 };
+
+#include <input/processors.dtsi>
+
+&zip_temp_layer {
+    excluded-positions = <
+        35 // 
+        25 // 
+        26 // 
+        36 // 
+    >;
+};
